@@ -1,0 +1,15 @@
+:root {
+    --color-theme_black: #24252a;
+    --color-theme_darkgray: #655e6e;
+    --color-theme_lightgray: #9ea2b3;
+    --color-theme_white: #f5f3fb;
+    --color-theme_turquoise: #5ce0ed;
+    --color-theme_blue: #0088a9;
+    --color-theme_orange: #fc7435;
+}
+
+* {
+    font-family: sans-serif;
+    color: var(--color-theme_black);
+}
+
