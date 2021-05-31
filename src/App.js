@@ -10,6 +10,9 @@ import {
   Route,
   Switch
 } from 'react-router-dom';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import About from './pages/About';
 
 const App = () => {
   
@@ -36,9 +39,9 @@ const App = () => {
       </div>
       
       <Switch>
-        <Route exact path="/"></Route>
-        <Route path="/projects"></Route>
-        <Route path="/about"></Route>
+        <Route exact path="/">{Home}</Route>
+        <Route path="/projects">{Projects}</Route>
+        <Route path="/about">{About}</Route>
       </Switch>
       </ThemeProvider>
     </Router>

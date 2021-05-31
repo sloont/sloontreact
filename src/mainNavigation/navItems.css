@@ -1,0 +1,25 @@
+.nav-items ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-items li {
+    margin-left: 2rem;
+
+}
+
+.nav-items a {
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #75cff8;
+    
+}
+
+.nav-items a:hover,
+.nav-items a:active,
+.nav-items a.active {
+    color: #ff905b;
+}
